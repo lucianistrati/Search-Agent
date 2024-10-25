@@ -56,7 +56,7 @@ Replace `your_tavily_api_key_here` with your actual Tavily API key.
 To execute the weather agent using `main.py`, run the following command:
 
 ```bash
-poetry run python main.py
+poetry run python src/main.py
 ```
 
 This will initiate the agent, and you should see outputs indicating the weather in San Francisco and New York.
@@ -66,7 +66,7 @@ This will initiate the agent, and you should see outputs indicating the weather 
 To use the Tavily search functionality in `search_agent.py`, run:
 
 ```bash
-poetry run python search_agent.py
+poetry run python src/search_agent.py
 ```
 
 You will see a conversational exchange in the console, with the agent responding to predefined messages.
